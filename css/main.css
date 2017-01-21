@@ -1,0 +1,23 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	color:#c6c6c8;
+	font-size:14px;
+	font-family:consolas,"ºÚÌå";
+}
+
+body
+{
+	background-image:url('../image/global_bg.png');
+}
+
+.content
+{
+	height:450px;
+	background-color:#000000;
+	margin-left:120px;
+	margin-right:120px;
+	text-align:center;
+	font-size:64px;
+}
