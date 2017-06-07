@@ -31,7 +31,7 @@ You can change the showcase image by replacing `showcase.jpg` file in the `image
 
 ### Download
 
-[download](https://github.com/arnp/herring-cove/archive/master.zip)
+#[download](https://github.com/arnp/herring-cove/archive/master.zip)
 
 ### License
 * [MIT](http://opensource.org/licenses/MIT)
