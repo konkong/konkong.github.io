@@ -1,31 +1,39 @@
-name: Herring Cove
-author: Herring Cove
-baseurl: /herring-cove
-description: theme for jekyll
-github: http://www.github.com/arnp
-twitter: http://www.twitter.com/
-facebook: http://www.facebook.com
-linkedin: http://www.linkedin.com
-email: rnpatel[at]me.com
-location: 42°2'16"N   70°12'47"W
-disqus: diqus-username
+# Site settings
+name: ONE PIECE
+email: kev@live.cn
+author: konkong
+url: http://konkong.github.io
+resume_site: http://konkong.github.io
+github: https://github.com/konkong/
+baseurl: ''
+description: Simplicity is truth!
+meta_description: Simplicity is truth!
+motto: Simplicity is truth.
+banner: 平平淡淡才为真.
 
-##Make sure to edit the above fields, especially for disqus.
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
 
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
+github_username: konkong
+highlighter: Pygments
 
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+# Build settings
+markdown: kramdown
+
+baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : konkong
+    disqus :
+        short_name : freudkang
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
